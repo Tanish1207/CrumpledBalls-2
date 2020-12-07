@@ -59,7 +59,7 @@ image(dustbin1.image,500,472,200,180);
 }
 function keyPressed(){
 	if(keyCode === UP_ARROW) {
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:191,y:-191});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:188,y:-188});
 	}
   }
 
